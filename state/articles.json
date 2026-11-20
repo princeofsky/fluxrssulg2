@@ -19,7 +19,7 @@
   },
   {
     "id": "https://www.campus.uliege.be/cms/c_20685962/fr/des-places-en-creche-accessibles-a-la-communaute-universitaire",
-    "title": "De places en crèche accessibles à la communauté universitaire",
+    "title": "Des places en crèche accessibles à la communauté universitaire",
     "link": "https://www.campus.uliege.be/cms/c_20685962/fr/des-places-en-creche-accessibles-a-la-communaute-universitaire",
     "description": "Concilier études, carrière et parentalité constitue un défi majeur pour de nombreuses familles. Consciente de cet enjeu, l'ULiège a établi un partenariat avec l’ASBL Seconde Peau qui a permis l'ouverture d'une nouvelle crèche de 28 places.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-07/1280-_ofa-olivier_fourneau_architectes.png",
@@ -1067,6 +1067,60 @@
     "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20702768/fr/laure-fagnart-et-stefania-tullio-cataldo-parmi-les-nouvelles-personnalites-qui-ont-recu-le-titre-de-citoyen-citoyenne-d-honneur-de-la-ville-de-liege",
     "description": "Laure Fagnart et Stefania Tullio Cataldo de l'ULiège reçoivent le titre de « Citoyenne d’honneur » de la Ville de Liège.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-08/prix_citoyens_ville_liege_aout_2026_nathan_doppagne.png",
+    "content": "",
+    "published": ""
+  },
+  {
+    "id": "https://www.facphl.uliege.be/cms/c_3363388/fr/facphl-travailler-a-la-faculte-de-philosophie-et-lettres",
+    "title": "Poste de 1er assistant (H/F/X) - Domaine : Médias, genre et cultures de masse",
+    "link": "https://www.facphl.uliege.be/cms/c_3363388/fr/facphl-travailler-a-la-faculte-de-philosophie-et-lettres",
+    "description": "Envie de développer vos recherches sur les médias, le genre et les cultures de masse tout en contribuant à la formation des étudiant·es ? Rejoignez le Département de Médias, Culture et Communication de l'ULiège",
+    "image": "https://www.fsa.uliege.be/upload/docs/image/png/2026-11/261120_-_visu-2.png",
+    "content": "",
+    "published": ""
+  },
+  {
+    "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20686951/fr/first-year-seminars-un-levier-cle-pour-reussir-sa-premiere-annee",
+    "title": "First-Year Seminars : un levier clé pour réussir sa première année",
+    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20686951/fr/first-year-seminars-un-levier-cle-pour-reussir-sa-premiere-annee",
+    "description": "",
+    "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-07/2560x1440_news_fys_gmeuli.jpg",
+    "content": "",
+    "published": ""
+  },
+  {
+    "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20702087/fr/hommage-a-arthur-bodson-ancien-recteur-de-l-universite-de-liege-1985-1997",
+    "title": "Hommage à Arthur Bodson, ancien Recteur de l'Université de Liège (1985 -1997)",
+    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20702087/fr/hommage-a-arthur-bodson-ancien-recteur-de-l-universite-de-liege-1985-1997",
+    "description": "C’est avec une profonde tristesse que l’Université de Liège apprend le décès d’Arthur Bodson, Recteur de l’Université de 1985 à 1997. Ce texte biographique retrace son parcours.",
+    "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-08/bodson_arthur_news.jpg",
+    "content": "",
+    "published": ""
+  },
+  {
+    "id": "https://www.eddylab.uliege.be/cms/c_13705544/fr/arme-jusqu-aux-dents-quel-outil-pour-etudier-les-dents-des-carnivores",
+    "title": "Armé jusqu’aux dents : quel outil pour étudier les dents des carnivores ?",
+    "link": "https://www.eddylab.uliege.be/cms/c_13705544/fr/arme-jusqu-aux-dents-quel-outil-pour-etudier-les-dents-des-carnivores",
+    "description": "Une nouvelle étude consacrée à la dentition inférieure des carnivores permet de mieux comprendre quels aspects de leur écologie et de leur histoire évolutive sont captés par différentes méthodes d’analyse de la forme dentaire.",
+    "image": "https://www.sciences.uliege.be/upload/docs/image/png/2026-08/news_arme_jusquaux_dents.png",
+    "content": "",
+    "published": ""
+  },
+  {
+    "id": "https://www.eddylab.uliege.be/cms/c_13705536/fr/des-changements-climatiques-ont-scele-le-sort-des-mammiferes-predateurs-il-y-a-35-millions-d-annees",
+    "title": "Des changements climatiques ont scelé le sort des mammifères prédateurs il y a 35 millions d'années",
+    "link": "https://www.eddylab.uliege.be/cms/c_13705536/fr/des-changements-climatiques-ont-scele-le-sort-des-mammiferes-predateurs-il-y-a-35-millions-d-annees",
+    "description": "Une nouvelle étude portant sur des fossiles européens révèle que d'importantes variations de la masse corporelle des mammifères prédateurs sont survenues principalement à la suite de changements environnementaux majeurs.",
+    "image": "https://www.sciences.uliege.be/upload/docs/image/png/2026-08/news_changements_climatiques_mammiferes.png",
+    "content": "",
+    "published": ""
+  },
+  {
+    "id": "https://www.giga.uliege.be/cms/c_13703369/fr/le-sommeil-pourrait-aider-a-reperer-plus-tot-les-personnes-a-risques-de-developper-la-maladie-d-alzheimer",
+    "title": "Le sommeil pourrait aider à repérer plus tôt les personnes à risques de développer la maladie d'Alzheimer",
+    "link": "https://www.giga.uliege.be/cms/c_13703369/fr/le-sommeil-pourrait-aider-a-reperer-plus-tot-les-personnes-a-risques-de-developper-la-maladie-d-alzheimer",
+    "description": "Et si certains signes de la maladie se manifestaient discrètement pendant le sommeil, bien avant les premiers troubles de la mémoire ? C'est la piste qu'explorent des chercheurs de l'ULiège, avec le soutien de la Fondation Stop Alzheimer.",
+    "image": "https://www.sciences.uliege.be/upload/docs/image/png/2026-08/alzheimer_sommeil_recherche_giga_uliege_envato.png",
     "content": "",
     "published": ""
   }
