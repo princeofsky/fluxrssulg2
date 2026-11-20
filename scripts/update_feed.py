@@ -18,7 +18,13 @@ S = requests.Session()
 S.headers.update({"User-Agent": "Mozilla/5.0 (compatible; ULiegeRSSBot/1.0)", "Accept-Language": "fr,en;q=0.8"})
 
 def get(url):
-    r = S.get(url, timeout=25); r.raise_for_status()
+    r = S.get(url, timeout=25)
+    print(f"[HTTP] URL finale : {r.url}")
+    print(f"[HTTP] Statut : {r.status_code}")
+    print(f"[HTTP] Content-Type : {r.headers.get('Content-Type')}")
+    print(f"[HTTP] Taille : {len(r.content)} octets")
+    print(f"[HTTP] Début de la réponse : {r.text[:800]!r}")
+    r.raise_for_status()
     return BeautifulSoup(r.text, "html.parser")
 
 def clean(s):
