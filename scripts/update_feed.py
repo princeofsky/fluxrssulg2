@@ -31,7 +31,15 @@ def clean(s):
     return re.sub(r"\\s+", " ", s or "").strip()
 
 def listing(start):
-    return BASE + "?" + urlencode({"pageSize": 12, "pagerAll": "false", "reverse": "false", "start": start})
+    if start == 0:
+        return BASE
+
+    return BASE + "?" + urlencode({
+        "pageSize": 12,
+        "pagerAll": "false",
+        "reverse": "false",
+        "start": start
+    })
 
 def absurl(url, base):
     from urllib.parse import urljoin
