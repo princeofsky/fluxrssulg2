@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 import atexit
 from playwright.sync_api import sync_playwright
 
-BASE = "https://www.news.uliege.be/cms/c_9435330/fr/portail-news-agendas-toutes-les-news"
+BASE = "https://www.news.uliege.be/cms/c_9435330/fr/prog-cours"
 ROOT = Path(__file__).resolve().parents[1]
 STATE = ROOT / "state/articles.json"
 FEED = ROOT / "docs/feed.xml"
