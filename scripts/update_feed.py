@@ -8,6 +8,8 @@ from urllib.parse import urlencode
 import xml.etree.ElementTree as ET
 import requests
 from bs4 import BeautifulSoup
+import atexit
+from playwright.sync_api import sync_playwright
 
 BASE = "https://www.news.uliege.be/cms/c_9435330/fr/portail-news-agendas-toutes-les-news"
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,15 +19,51 @@ MAX_PAGES = int(os.getenv("MAX_PAGES", "10"))
 S = requests.Session()
 S.headers.update({"User-Agent": "Mozilla/5.0 (compatible; ULiegeRSSBot/1.0)", "Accept-Language": "fr,en;q=0.8"})
 
+
+_pw = None
+_browser = None
+
+def close_browser():
+    global _pw, _browser
+    if _browser:
+        _browser.close()
+    if _pw:
+        _pw.stop()
+
+atexit.register(close_browser)
+
 def get(url):
-    r = S.get(url, timeout=25)
-    print(f"[HTTP] URL finale : {r.url}")
-    print(f"[HTTP] Statut : {r.status_code}")
-    print(f"[HTTP] Content-Type : {r.headers.get('Content-Type')}")
-    print(f"[HTTP] Taille : {len(r.content)} octets")
-    print(f"[HTTP] Début de la réponse : {r.text[:800]!r}")
-    r.raise_for_status()
-    return BeautifulSoup(r.text, "html.parser")
+    global _pw, _browser
+
+    if _browser is None:
+        _pw = sync_playwright().start()
+        _browser = _pw.chromium.launch(headless=True)
+
+    page = _browser.new_page(
+        locale="fr-BE",
+        user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    )
+
+    try:
+        response = page.goto(
+            url,
+            wait_until="domcontentloaded",
+            timeout=60000
+        )
+
+        page.wait_for_timeout(4000)
+
+        print(f"[BROWSER] Statut : {response.status if response else 'inconnu'}")
+        print(f"[BROWSER] URL : {page.url}")
+        print(f"[BROWSER] Titre : {page.title()}")
+        print(f"[BROWSER] Liens : {page.locator('a[href]').count()}")
+
+        html = page.content()
+        return BeautifulSoup(html, "html.parser")
+
+    finally:
+        page.close()
+
 
 def clean(s):
     return re.sub(r"\\s+", " ", s or "").strip()
