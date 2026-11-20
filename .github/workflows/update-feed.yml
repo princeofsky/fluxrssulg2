@@ -1,25 +1,40 @@
+
 name: Update ULiège RSS feed
+
 on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
+
 permissions:
   contents: write
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -r requirements.txt
-      - run: python scripts/update_feed.py
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Update RSS feed
+        run: python scripts/update_feed.py
+
       - name: Commit updated feed and history
         run: |
           git config user.name "github-actions[bot]"
@@ -27,15 +42,19 @@ jobs:
           git add state/articles.json docs/feed.xml
           git diff --cached --quiet || git commit -m "Update ULiège RSS feed"
           git push
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
+
   deploy:
     needs: update
     runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Deploy GitHub Pages
         id: deployment
