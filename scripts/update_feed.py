@@ -92,35 +92,36 @@ def main():
     except (OSError,json.JSONDecodeError): old = []
     known = {x["id"]:x for x in old if x.get("id")}
     fresh = []
-for page in range(MAX_PAGES):
-    url = listing(page * 12)
-    soup = get(url)
+        
+    for page in range(MAX_PAGES):
+        url = listing(page * 12)
+        soup = get(url)
 
-    print(f"\n[DEBUG] Page : {url}")
-    print(f"[DEBUG] Titre HTML : {soup.title.get_text(strip=True) if soup.title else 'Absent'}")
-    print(f"[DEBUG] Nombre de H3 : {len(soup.select('h3'))}")
-    print(f"[DEBUG] Nombre de liens : {len(soup.select('a[href]'))}")
-    print(f"[DEBUG] Liens dans les H3 : {len(soup.select('h3 a[href]'))}")
+        print(f"\n[DEBUG] Page : {url}")
+        print(f"[DEBUG] Titre HTML : {soup.title.get_text(strip=True) if soup.title else 'Absent'}")
+        print(f"[DEBUG] Nombre de H3 : {len(soup.select('h3'))}")
+        print(f"[DEBUG] Nombre de liens : {len(soup.select('a[href]'))}")
+        print(f"[DEBUG] Liens dans les H3 : {len(soup.select('h3 a[href]'))}")
 
-    entries = parse_listing(soup)
+        entries = parse_listing(soup)
 
-    print(f"[DEBUG] Articles détectés : {len(entries)}")
+        print(f"[DEBUG] Articles détectés : {len(entries)}")
 
-    for entry in entries[:5]:
-        print(f"[DEBUG] - {entry['title']} : {entry['link']}")
+        for entry in entries[:5]:
+            print(f"[DEBUG] - {entry['title']} : {entry['link']}")
 
-    if not entries:
-        break
+        if not entries:
+            break
 
-    fresh.extend(entries)
-
-    if len(entries) < 12:
-        break
-
-    time.sleep(.4)
         fresh.extend(entries)
-        if len(entries)<12: break
+
+        if len(entries) < 12:
+            break
+
         time.sleep(.4)
+
+
+
     for item in fresh:
         if item["id"] in known:
             for k in ("title","link","description","image"):
