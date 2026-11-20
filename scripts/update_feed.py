@@ -181,14 +181,8 @@ def main():
             for k in ("title","link","description","image"):
                 if item.get(k): known[item["id"]][k]=item[k]
         else:
-            for item in fresh:
-    if item["id"] in known:
-        for k in ("title","link","description","image"):
-            if item.get(k):
-                known[item["id"]][k]=item[k]
-    else:
-        known[item["id"]] = item
-        time.sleep(.25)
+            known[item["id"]] = item
+            time.sleep(.25)
     items = sorted(known.values(),key=lambda x:x.get("published") or "",reverse=True)[:2000]
     STATE.write_text(json.dumps(items,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
     ET.register_namespace("content","http://purl.org/rss/1.0/modules/content/")
