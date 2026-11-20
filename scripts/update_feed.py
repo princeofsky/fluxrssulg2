@@ -123,7 +123,7 @@ def get_date(soup):
         except ValueError: pass
     return None
 
-def # enrich(item):
+def enrich(item):
     try:
         soup = get(item["link"]); d = get_date(soup)
         item["published"] = d.isoformat() if d else ""
