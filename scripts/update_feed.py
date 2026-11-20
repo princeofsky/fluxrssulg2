@@ -79,9 +79,11 @@ def listing(start):
         "start": start
     })
 
-def absurl(url, base):
+def absurl(url, base=None):
     from urllib.parse import urljoin
-    return urljoin(base, url or "")
+    if not url:
+        return ""
+    return urljoin("https://www.news.uliege.be/", url)
 
 def parse_listing(soup):
     out, seen = [], set()
