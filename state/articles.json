@@ -1,5 +1,23 @@
 [
   {
+    "id": "uliege-17ad3d07594c7e4044f1c2e581deefa807c175a29d26b5f838d6db8b88314203",
+    "title": "Le télétravail est-il en train de nous lessiver ?",
+    "link": "https://www.fass.uliege.be/cms/c_12964091/fr/le-teletravail-est-il-en-train-de-nous-lessiver",
+    "description": "Dans 9 ème épisode du podcast de la Faculté des Sciences Sociales, nous explorons avec la sociologue Marianne Le Gagneur, les limites et les paradoxes de cette pratique devenue incontournable.",
+    "image": "https://www.fsa.uliege.be/upload/docs/image/jpeg/2026-09/podcast_teletravail.jpg",
+    "content": "",
+    "published": "2026-11-24T13:48:24.449450+00:00"
+  },
+  {
+    "id": "uliege-c8d41b56698c821a4f03025c625ebffc53c0ca94cb172bc624771814553c845b",
+    "title": "La Fondation ULiège organise sa 1ère Semaine du Don",
+    "link": "https://www.news.uliege.be/cms/c_20754554/fr/la-fondation-uliege-organise-sa-1ere-semaine-du-don",
+    "description": "La Fondation ULiège lance un grand appel à projet auprès de ses Facultés afin d'alimenter son offre de soutien aux chercheurs et académiques mais aussi de sensibiliser ses donateurs aux grands enjeux de notre société.",
+    "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-11/semaine_du_don_2026_ecran_2560_1280.png",
+    "content": "",
+    "published": "2026-11-24T13:48:24.172330+00:00"
+  },
+  {
     "id": "uliege-ed1efb1cd814e5443bdb19c7769dcebd636818dbc5ea9d2b2ccbae046378675b",
     "title": "Réseau TEC perturbé ce lundi 9 novembre",
     "link": "https://www.campus.uliege.be/cms/c_18923002/fr/perturbations-dans-les-transports-en-commun",
@@ -11,7 +29,7 @@
   {
     "id": "uliege-537927e398f97e1d194b5f5e836256441559e3b5085b5211155e915c3f84eed2",
     "title": "Visite ITC - La coopération universitaire belge mise en lumière au Cambodge",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20772050/fr/visite-itc-la-cooperation-universitaire-belge-mise-en-lumiere-au-cambodge",
+    "link": "https://www.news.uliege.be/cms/c_20772050/fr/visite-itc-la-cooperation-universitaire-belge-mise-en-lumiere-au-cambodge",
     "description": "En marge du Sommet de la Francophonie, l’ULiège et ses partenaires ont participé à FrancoTech et au Study in Europe Fair au Cambodge, mettant en lumière les projets de coopération universitaire et les collaborations belgo-cambodgiennes.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-11/visite_itc_-_francotech_-_parlement_fwb.png",
     "content": "",
@@ -20,7 +38,7 @@
   {
     "id": "uliege-b29d611acb6c32d99eee979068fbd266f8e0cb1d5806196315e9b2072d7b8a6d",
     "title": "L’ULiège demande le renouvellement de la réserve naturelle du Sart Tilman et son extension de 80 hectares",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20773623/fr/l-uliege-demande-le-renouvellement-de-la-reserve-naturelle-du-sart-tilman-et-son-extension-de-80-hectares",
+    "link": "https://www.news.uliege.be/cms/c_20773623/fr/l-uliege-demande-le-renouvellement-de-la-reserve-naturelle-du-sart-tilman-et-son-extension-de-80-hectares",
     "description": "L'ULiège a décidé d’introduire une demande de renouvellement et d’extension de la réserve naturelle du Sart Tilman. Dès 2027, elle pourrait ainsi passer à 340 hectares, contribuant durablement à préserver et à restaurer la biodiversité sur le campus.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-11/extension-reserve-nat_-_c_breuer.png",
     "content": "",
@@ -74,7 +92,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20767552/fr/qui-donnera-son-nom-aux-amphitheatres-604-304-et-204",
     "title": "Qui donnera son nom aux amphithéâtres 604, 304 et 204 ?",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20767552/fr/qui-donnera-son-nom-aux-amphitheatres-604-304-et-204",
+    "link": "https://www.news.uliege.be/cms/c_20767552/fr/qui-donnera-son-nom-aux-amphitheatres-604-304-et-204",
     "description": "L’ULiège vous invite à choisir les noms qui seront donnés aux amphithéâtres 604, 304 et 204 du bâtiment B4 (Amphithéâtres de l’Europe). Six noms de femmes et d’hommes (dont un duo) aux parcours remarquables sont proposés.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-11/amphis_604.png",
     "content": "",
@@ -92,7 +110,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20767899/fr/visite-itc-partenariat-uliege-institut-de-technologie-du-cambodge",
     "title": "Visite ITC - Partenariat ULiège – Institut de Technologie du Cambodge",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20767899/fr/visite-itc-partenariat-uliege-institut-de-technologie-du-cambodge",
+    "link": "https://www.news.uliege.be/cms/c_20767899/fr/visite-itc-partenariat-uliege-institut-de-technologie-du-cambodge",
     "description": "En marge du Sommet de la Francophonie à Phnom Penh, la Ministre Elisabeth Degryse a visité l’Institut de technologie du Cambodge (ITC), partenaire historique de l’ULiège.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-11/ministredegryseitc.jpg",
     "content": "",
@@ -101,7 +119,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20758007/fr/philippe-walter-titulaire-de-la-chaire-francqui-internationale-2026-2027-a-l-universite-de-liege",
     "title": "Philippe Walter, titulaire de la Chaire Francqui Internationale 2026-2027 à l'Université de Liège",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20758007/fr/philippe-walter-titulaire-de-la-chaire-francqui-internationale-2026-2027-a-l-universite-de-liege",
+    "link": "https://www.news.uliege.be/cms/c_20758007/fr/philippe-walter-titulaire-de-la-chaire-francqui-internationale-2026-2027-a-l-universite-de-liege",
     "description": "Le Professeur Philippe Walter est reconnu pour ses contributions majeures à l'étude des matériaux du patrimoine culturel et collabore depuis de nombreuses année avec notre université.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-11/francqui_walter_20262.png",
     "content": "",
@@ -182,7 +200,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20754423/fr/mise-a-l-honneur-des-membres-du-corps-academique-et-mandataires-permanent-es-f-r-s-fnrs-nouveaux-nommes-et-admis-a-la-retraite-2026",
     "title": "Mise à l'honneur des membres du corps académique et mandataires permanent·es F.R.S.-FNRS, nouveaux nommés et admis à la retraite · 2026",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20754423/fr/mise-a-l-honneur-des-membres-du-corps-academique-et-mandataires-permanent-es-f-r-s-fnrs-nouveaux-nommes-et-admis-a-la-retraite-2026",
+    "link": "https://www.news.uliege.be/cms/c_20754423/fr/mise-a-l-honneur-des-membres-du-corps-academique-et-mandataires-permanent-es-f-r-s-fnrs-nouveaux-nommes-et-admis-a-la-retraite-2026",
     "description": "La cérémonie de mise à l’honneur des nouveaux membres du personnel académique et des membres du personnel enseignant émérites, honoraires et admis à la retraite s’est tenue ce jeudi 05 novembre 2026.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-11/2026-11-05_ceremonie_nouveaux_nommes_uliege-c-gmeuli00139.jpg",
     "content": "",
@@ -218,7 +236,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20757259/fr/l-universite-de-liege-renouvelle-sa-reconnaissance-hr-excellence-in-research",
     "title": "L’Université de Liège renouvelle sa reconnaissance \"HR Excellence in Research\"",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20757259/fr/l-universite-de-liege-renouvelle-sa-reconnaissance-hr-excellence-in-research",
+    "link": "https://www.news.uliege.be/cms/c_20757259/fr/l-universite-de-liege-renouvelle-sa-reconnaissance-hr-excellence-in-research",
     "description": "Une reconnaissance européenne qui reflète un engagement collectif durable, et qui ouvre un nouveau cycle d’amélioration des conditions de travail, du recrutement et des carrières scientifiques.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-11/hrs4r_g.meuli_.jpg",
     "content": "",
@@ -245,7 +263,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20757090/fr/win4doc-huit-nouveaux-projets-de-doctorat-associent-l-uliege-aux-entreprises-wallonnes",
     "title": "Win4Doc : huit nouveaux projets de doctorat associent l’ULiège aux entreprises wallonnes",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20757090/fr/win4doc-huit-nouveaux-projets-de-doctorat-associent-l-uliege-aux-entreprises-wallonnes",
+    "link": "https://www.news.uliege.be/cms/c_20757090/fr/win4doc-huit-nouveaux-projets-de-doctorat-associent-l-uliege-aux-entreprises-wallonnes",
     "description": "Huit nouveaux projets Win4Doc associent l’ULiège à six entreprises. De l’aéronautique à la santé, ils illustrent la diversité des collaborations entre recherche et industrie. Un nouvel appel est désormais ouvert.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-08/recherche_et_innovation_glbx_c-gmeuli_2026.png",
     "content": "",
@@ -254,7 +272,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20756819/fr/labo4-le-langage-des-odeurs",
     "title": "LABO4 | Le langage des odeurs",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20756819/fr/labo4-le-langage-des-odeurs",
+    "link": "https://www.news.uliege.be/cms/c_20756819/fr/labo4-le-langage-des-odeurs",
     "description": "De l’émotion qu’éveille une odeur au souffle qui pourrait révéler une maladie, en passant par l’histoire et l’art, venez découvrir comment les scientifiques de l’ULiège percent les secrets du plus mystérieux de nos sens.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-11/labo4_s2_e2_-_les_odeurs.jpg.png",
     "content": "",
@@ -272,7 +290,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20749891/fr/les-bourses-sociales-un-soutien-precieux-pour-les-etudiants",
     "title": "Les bourses sociales, un soutien précieux pour les étudiants",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20749891/fr/les-bourses-sociales-un-soutien-precieux-pour-les-etudiants",
+    "link": "https://www.news.uliege.be/cms/c_20749891/fr/les-bourses-sociales-un-soutien-precieux-pour-les-etudiants",
     "description": "Soutien financier aux étudiant·es de master et doctorant·es de l'ULiège.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-10/image_par_mohamed_hassan_de_pixabay.png",
     "content": "",
@@ -290,7 +308,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20753979/fr/lancement-de-l-asbl-vusc",
     "title": "Lancement de l’ASBL VUSC",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20753979/fr/lancement-de-l-asbl-vusc",
+    "link": "https://www.news.uliege.be/cms/c_20753979/fr/lancement-de-l-asbl-vusc",
     "description": "Ce 23 octobre à l’ULiège, le lancement de l’ASBL VUSC marque une nouvelle étape pour le secours animalier en Wallonie. Un exercice grandeur nature d’incendie de ferme suivra le 30 octobre.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-10/news_vusc.png",
     "content": "",
@@ -326,7 +344,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20750755/fr/la-fondation-uliege-lance-un-appel-a-projets-facultaires",
     "title": "La Fondation ULiège lance un appel à projets facultaires",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20750755/fr/la-fondation-uliege-lance-un-appel-a-projets-facultaires",
+    "link": "https://www.news.uliege.be/cms/c_20750755/fr/la-fondation-uliege-lance-un-appel-a-projets-facultaires",
     "description": "La Fondation ULiège lance un grand appel à projet auprès de ses Facultés afin d'alimenter son offre de soutien aux chercheurs et académiques mais aussi de sensibiliser ses donateurs aux grands enjeux de notre société.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-10/sans_titre_2560_x_1280_px.png",
     "content": "",
@@ -344,7 +362,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20750010/fr/l-uliege-cree-le-jumeau-numerique-du-haut-fourneau-b-d-ougree",
     "title": "L’ULiège crée le jumeau numérique du Haut-Fourneau B d’Ougrée",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20750010/fr/l-uliege-cree-le-jumeau-numerique-du-haut-fourneau-b-d-ougree",
+    "link": "https://www.news.uliege.be/cms/c_20750010/fr/l-uliege-cree-le-jumeau-numerique-du-haut-fourneau-b-d-ougree",
     "description": "L’ULiège et l’ASBL Des Racines et des Ailes d’Acier ont créé un relevé 3D du Haut-Fourneau B d’Ougrée pour préserver sa mémoire, préparer sa réaffectation et soutenir la recherche et l’innovation.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-10/uliege_haut-fourneau_numerisation.jpg",
     "content": "",
@@ -353,7 +371,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20749559/fr/l-uliege-participe-a-la-visite-d-etat-belge-au-kazakhstan",
     "title": "L’ULiège participe à la visite d’État belge au Kazakhstan",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20749559/fr/l-uliege-participe-a-la-visite-d-etat-belge-au-kazakhstan",
+    "link": "https://www.news.uliege.be/cms/c_20749559/fr/l-uliege-participe-a-la-visite-d-etat-belge-au-kazakhstan",
     "description": "L’ULiège participe à la visite d’État au Kazakhstan pour renforcer ses partenariats académiques, scientifiques et industriels, notamment dans les matières premières critiques et le projet européen TiBeRIUM.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-10/uliege_kazakhstan.png",
     "content": "",
@@ -371,7 +389,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20749865/fr/feder-2021-2027-l-uliege-participe-a-sept-nouveaux-portefeuilles-de-projets-dont-deux-qu-elle-coordonne",
     "title": "FEDER 2021-2027 : l'ULiège participe à sept nouveaux portefeuilles de projets, dont deux qu'elle coordonne",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20749865/fr/feder-2021-2027-l-uliege-participe-a-sept-nouveaux-portefeuilles-de-projets-dont-deux-qu-elle-coordonne",
+    "link": "https://www.news.uliege.be/cms/c_20749865/fr/feder-2021-2027-l-uliege-participe-a-sept-nouveaux-portefeuilles-de-projets-dont-deux-qu-elle-coordonne",
     "description": "Le Gouvernement wallon a approuvé la sélection de 116 projets dans le cadre du nouvel appel à projets du programme FEDER-FTJ 2021-2027. L'ULiège participera à sept portefeuilles de projets, dont deux qu'elle coordonne.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2023-05/europe_flag.jpg",
     "content": "",
@@ -389,7 +407,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20747250/fr/labo4-le-cancer-du-sein",
     "title": "LABO4 | Le cancer du sein",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20747250/fr/labo4-le-cancer-du-sein",
+    "link": "https://www.news.uliege.be/cms/c_20747250/fr/labo4-le-cancer-du-sein",
     "description": "De la cellule qui s'échappe de la tumeur au cancer du sein triple négatif, en passant par la reconstruction et la vie d'après, venez découvrir comment médecins et chercheurs apprennent à nos défenses à reprendre l'avantage sur la maladie.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-10/labo4_s2_e1_-_cancer_du_sein.jpg",
     "content": "",
@@ -398,7 +416,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20638994/fr/le-sart-tilman-s-anime-avec-les-b8-live-sessions",
     "title": "Le Sart Tilman s’anime avec les B8 LIVE Sessions",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20638994/fr/le-sart-tilman-s-anime-avec-les-b8-live-sessions",
+    "link": "https://www.news.uliege.be/cms/c_20638994/fr/le-sart-tilman-s-anime-avec-les-b8-live-sessions",
     "description": "Avec les B8 LIVE Sessions, l’ULiège propose une série de rendez-vous culturels dans la salle de spectacle du B8.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-02/b8-live-sessions-v2_news-2_copie.png",
     "content": "",
@@ -425,7 +443,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20735471/fr/votez-pour-crane-de-l-enfant-d-engis",
     "title": "Votez pour Crâne de l'enfant d'Engis !",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20735471/fr/votez-pour-crane-de-l-enfant-d-engis",
+    "link": "https://www.news.uliege.be/cms/c_20735471/fr/votez-pour-crane-de-l-enfant-d-engis",
     "description": "Découvert en 1830 à Engis, le crâne d’une petite Néandertalienne est un trésor du patrimoine liégeois. Avec le Préhistomuseum, l’ULiège souhaite le restaurer et le préserver. Votre soutien peut faire la différence !",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-10/1280x720_enfantengis.png",
     "content": "",
@@ -434,7 +452,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20746227/fr/nouveau-record-la-fondation-leon-fredericq-attribue-4-200-000-en-faveur-de-la-recherche-medicale-et-de-la-lutte-contre-le-cancer-a-liege",
     "title": "Nouveau record : la fondation Léon Fredericq attribue 4.200.000€ en faveur de la recherche médicale et de la lutte contre le cancer à Liège",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20746227/fr/nouveau-record-la-fondation-leon-fredericq-attribue-4-200-000-en-faveur-de-la-recherche-medicale-et-de-la-lutte-contre-le-cancer-a-liege",
+    "link": "https://www.news.uliege.be/cms/c_20746227/fr/nouveau-record-la-fondation-leon-fredericq-attribue-4-200-000-en-faveur-de-la-recherche-medicale-et-de-la-lutte-contre-le-cancer-a-liege",
     "description": "La Fondation Léon Fredericq attribue plus de 300 subsides et 4.200.000€ en faveur de la recherche médicale et de la lutte contre le cancer.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-10/groupe_2026.jpg",
     "content": "",
@@ -443,7 +461,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20746206/fr/winwal-2026-l-uliege-coordonne-6-des-11-projets-de-recherche-selectionnes",
     "title": "Win²Wal 2026 : l'ULiège coordonne 6 des 11 projets de recherche sélectionnés",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20746206/fr/winwal-2026-l-uliege-coordonne-6-des-11-projets-de-recherche-selectionnes",
+    "link": "https://www.news.uliege.be/cms/c_20746206/fr/winwal-2026-l-uliege-coordonne-6-des-11-projets-de-recherche-selectionnes",
     "description": "Six projets de recherche coordonnés par l'ULiège ont été retenus dans le cadre de l'appel Win²Wal 2026 du Gouvernement wallon, représentant un financement de près de 6,7 millions d'euros pour les équipes de l’ULiège, hors budgets des partenaires.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-10/appel_-_win2wal_2026.png",
     "content": "",
@@ -461,7 +479,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20744945/fr/inscrire-les-femmes-dans-l-histoire-de-la-cite",
     "title": "Inscrire les femmes dans l'histoire de la cité",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20744945/fr/inscrire-les-femmes-dans-l-histoire-de-la-cite",
+    "link": "https://www.news.uliege.be/cms/c_20744945/fr/inscrire-les-femmes-dans-l-histoire-de-la-cite",
     "description": "Un nouvel épisode sur la place des femmes dans l'histoire de la cité, de la Rome antique à l'époque moderne, à travers le croisement des regards historiques et juridiques. Nous en parlons avec Frédéric Hurlet, Marie-Sophie Silan et Yann Berthelet.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-10/reflexions_s2_ep6_femmes_societe.jpg",
     "content": "",
@@ -488,7 +506,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20744168/fr/le-cours-durabilite-et-transition-de-l-uliege-recoit-le-prix-coup-de-coeur-du-jury-des-learning-impact-awards-2026",
     "title": "Le cours \"Durabilité et Transition\" de l’ULiège reçoit le Prix Coup de Cœur du Jury des Learning Impact Awards 2026",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20744168/fr/le-cours-durabilite-et-transition-de-l-uliege-recoit-le-prix-coup-de-coeur-du-jury-des-learning-impact-awards-2026",
+    "link": "https://www.news.uliege.be/cms/c_20744168/fr/le-cours-durabilite-et-transition-de-l-uliege-recoit-le-prix-coup-de-coeur-du-jury-des-learning-impact-awards-2026",
     "description": "Le cours transversal \"Durabilité et Transition\" de l’Université de Liège vient de recevoir le Prix Coup de Cœur du Jury des Learning Impact Awards 2026. Une reconnaissance qui salue un projet pédagogique construit collectivement.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-10/learning_impact_awards-1280-720.png",
     "content": "",
@@ -515,7 +533,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20733606/fr/univers-elles-redistribue-les-cartes-de-l-histoire",
     "title": "Univers’elles redistribue les cartes de l’histoire !",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20733606/fr/univers-elles-redistribue-les-cartes-de-l-histoire",
+    "link": "https://www.news.uliege.be/cms/c_20733606/fr/univers-elles-redistribue-les-cartes-de-l-histoire",
     "description": "Univers’elles propose quatre jeux pour découvrir des femmes qui ont marqué les sciences, les sciences humaines et les arts, à travers les époques et les continents.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-09/news_universelles.jpg",
     "content": "",
@@ -524,7 +542,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20730568/fr/presentation-de-la-nouvelle-equipe-rectorale-de-l-uliege",
     "title": "Présentation de la nouvelle équipe rectorale de l'ULiège",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20730568/fr/presentation-de-la-nouvelle-equipe-rectorale-de-l-uliege",
+    "link": "https://www.news.uliege.be/cms/c_20730568/fr/presentation-de-la-nouvelle-equipe-rectorale-de-l-uliege",
     "description": "Les membres de l'équipe rectorale, rassemblés autour de la Rectrice Anne-Sophie Nyssen, sont entrés en fonction ce 1 er octobre. La Pr Sylvie Gobert rejoint l'équipe, composée désormais de quatre vice-recteur·trices et de cinq conseiller·ères.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-09/2026-09-01_equipe_rectorale_uliege-c-gmeuli00058.jpg",
     "content": "",
@@ -578,7 +596,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20739678/fr/sur-nos-campus-et-au-dela-notre-engagement-climatique-doit-etre-sans-faille",
     "title": "Sur nos campus et au-delà, notre engagement climatique doit être sans faille",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20739678/fr/sur-nos-campus-et-au-dela-notre-engagement-climatique-doit-etre-sans-faille",
+    "link": "https://www.news.uliege.be/cms/c_20739678/fr/sur-nos-campus-et-au-dela-notre-engagement-climatique-doit-etre-sans-faille",
     "description": "Carte blanche du Conseil des rectrices et recteurs du 25 septembre 2026.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2025-07/communique_cref.png",
     "content": "",
@@ -587,7 +605,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20739656/fr/travailler-avec-goffman-sur-tout-terrain",
     "title": "Travailler avec Goffman sur tout terrain",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20739656/fr/travailler-avec-goffman-sur-tout-terrain",
+    "link": "https://www.news.uliege.be/cms/c_20739656/fr/travailler-avec-goffman-sur-tout-terrain",
     "description": "Cet ouvrage propose différentes contributions au départ de terrains variés, mais aussi la traduction française de l’unique entretien donné par Erving Goffman à un chercheur en sciences sociales.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-09/goffman_sur-tout-terrain-sp.png",
     "content": "",
@@ -596,7 +614,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20739531/fr/nourrir-la-cooperation",
     "title": "Nourrir la coopération",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20739531/fr/nourrir-la-cooperation",
+    "link": "https://www.news.uliege.be/cms/c_20739531/fr/nourrir-la-cooperation",
     "description": "À partir d’expériences menées dans différentes communes de la Fédération Wallonie-Bruxelles, cet ouvrage explore un levier décisif : la coopération intersectorielle.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-09/nourrir-la-cooperation-sp.jpg",
     "content": "",
@@ -614,7 +632,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20738644/fr/decouvrez-le-rapport-recherche-et-innovation-2025",
     "title": "Découvrez le rapport Recherche et Innovation 2025",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20738644/fr/decouvrez-le-rapport-recherche-et-innovation-2025",
+    "link": "https://www.news.uliege.be/cms/c_20738644/fr/decouvrez-le-rapport-recherche-et-innovation-2025",
     "description": "De la recherche fondamentale au transfert vers le monde socio-économique, ce second rapport illustre la diversité et l'impact des recherches menées au sein de l'Université de Liège",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-09/rapport-mockup-2560x1440.png",
     "content": "",
@@ -623,7 +641,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20734062/fr/etudiants-et-aidants-une-realite-encore-trop-peu-visible",
     "title": "Étudiants et aidants : une réalité encore trop peu visible",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20734062/fr/etudiants-et-aidants-une-realite-encore-trop-peu-visible",
+    "link": "https://www.news.uliege.be/cms/c_20734062/fr/etudiants-et-aidants-une-realite-encore-trop-peu-visible",
     "description": "Un·e étudiant·e sur cinq assume régulièrement l'accompagnement d'un proche malade, en situation de handicap ou en perte d'autonomie. Près de 220 000 jeunes sont concernés en Wallonie.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-09/news-victoria-aidante-proche.png",
     "content": "",
@@ -641,7 +659,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20739633/fr/qnc-4-ouvrir-la-voie",
     "title": "QNC#4 - Ouvrir la voie",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20739633/fr/qnc-4-ouvrir-la-voie",
+    "link": "https://www.news.uliege.be/cms/c_20739633/fr/qnc-4-ouvrir-la-voie",
     "description": "« Quelle nouvelle, citoyen·ne ? » est co-organisé par la MSH-ULiège et l’asbl MNEMA afin de stimuler l’engagement de chacun dans la société. Ce concours invite à un travail d’expression écrite (une nouvelle) dans une démarche de citoyenneté.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-08/5_low_2026-08-25_14-36-55_650.jpg",
     "content": "",
@@ -659,7 +677,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20734170/fr/ceremonie-de-rentree-academique-2026-2027",
     "title": "Cérémonie de Rentrée académique 2026-2027",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20734170/fr/ceremonie-de-rentree-academique-2026-2027",
+    "link": "https://www.news.uliege.be/cms/c_20734170/fr/ceremonie-de-rentree-academique-2026-2027",
     "description": "Ce mardi 22 septembre, l'ULiège a célébré sa rentrée universitaire. La Rectrice Anne-Sophie Nyssen a présidé la cérémonie, qui avait pour thème « Lucidité, courage, créativité ».",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-09/2026-09-22_rentree_academique_uliege-c-gmeuli00167.jpg",
     "content": "",
@@ -686,7 +704,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20735161/fr/l-uliege-souhaite-la-bienvenue-a-ses-etudiant-es-internationaux",
     "title": "L’ULiège souhaite la bienvenue à ses étudiant·es internationaux",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20735161/fr/l-uliege-souhaite-la-bienvenue-a-ses-etudiant-es-internationaux",
+    "link": "https://www.news.uliege.be/cms/c_20735161/fr/l-uliege-souhaite-la-bienvenue-a-ses-etudiant-es-internationaux",
     "description": "Ce 21 septembre 2026, l’ULiège a accueilli ses étudiantes et étudiants internationaux pour une soirée d’échanges et de rencontres, marquant le début de leur nouvelle vie universitaire.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-09/soiree_accueil_etud._intern.png",
     "content": "",
@@ -695,7 +713,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20736018/fr/uliege-sports-lance-sa-nouvelle-saison",
     "title": "ULiège Sports lance sa nouvelle saison !",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20736018/fr/uliege-sports-lance-sa-nouvelle-saison",
+    "link": "https://www.news.uliege.be/cms/c_20736018/fr/uliege-sports-lance-sa-nouvelle-saison",
     "description": "ULiège Sports fait sa rentrée : des installations rénovées au Blanc Gravier et 64 disciplines pour bouger à votre rythme !",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-09/salon_des_sports_news.png",
     "content": "",
@@ -704,7 +722,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20738588/fr/deux-subsides-pour-le-pole-museal-et-culturel",
     "title": "Deux subsides pour le Pôle muséal et culturel",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20738588/fr/deux-subsides-pour-le-pole-museal-et-culturel",
+    "link": "https://www.news.uliege.be/cms/c_20738588/fr/deux-subsides-pour-le-pole-museal-et-culturel",
     "description": "Le Pôle muséal et culturel est lauréat de deux appels à subside de la Fondation Roi Baudouin : Encourage les Jeunes Talents et Fonds David-Constant.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-09/uliege-st-000069-a-vf.jpg",
     "content": "",
@@ -731,7 +749,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20735269/fr/une-nouvelle-etape-dans-le-projet-de-transfert-des-facultes-des-sciences-sociales-et-de-droit-de-science-politique-et-de-criminologie-vers-le-centre-ville",
     "title": "Une nouvelle étape dans le projet de transfert des Facultés des Sciences sociales et de Droit, de Science politique et de Criminologie vers le centre-ville",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20735269/fr/une-nouvelle-etape-dans-le-projet-de-transfert-des-facultes-des-sciences-sociales-et-de-droit-de-science-politique-et-de-criminologie-vers-le-centre-ville",
+    "link": "https://www.news.uliege.be/cms/c_20735269/fr/une-nouvelle-etape-dans-le-projet-de-transfert-des-facultes-des-sciences-sociales-et-de-droit-de-science-politique-et-de-criminologie-vers-le-centre-ville",
     "description": "Le 16 septembre 2026, le Conseil d’administration de l’ULiège a marqué son accord de principe sur la poursuite de l’instruction du transfert de deux de ses facultés vers le centre-ville.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-09/1920-1080-transfert_fac_centre-ville-1-ok.png",
     "content": "",
@@ -740,7 +758,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_19685917/fr/lancement-des-appels-a-candidatures-pour-de-nombreux-prix-et-bourses-des-fonds-du-patrimoine",
     "title": "Lancement des appels à candidatures pour de nombreux prix et bourses des Fonds du Patrimoine",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_19685917/fr/lancement-des-appels-a-candidatures-pour-de-nombreux-prix-et-bourses-des-fonds-du-patrimoine",
+    "link": "https://www.news.uliege.be/cms/c_19685917/fr/lancement-des-appels-a-candidatures-pour-de-nombreux-prix-et-bourses-des-fonds-du-patrimoine",
     "description": "Les fondations du Patrimoine de l'Université de Liège octroient chaque année plus de 80 prix et bourses, accessibles aux étudiant·es et Alumni ULiège. Plusieurs appels viennent d'être lancés, n'hésitez pas à les consulter !",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2024-06/2023-10-11_shooting-campus-arlon_environnement_ambiance-couloir-interieur_ulieges.seyen00011.jpg",
     "content": "",
@@ -830,7 +848,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_12305913/fr/se-reorienter-pourquoi-comment",
     "title": "Se réorienter – Pourquoi ? Comment ?",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_12305913/fr/se-reorienter-pourquoi-comment",
+    "link": "https://www.news.uliege.be/cms/c_12305913/fr/se-reorienter-pourquoi-comment",
     "description": "Le certificat inter-universités en Médecine du Sport vise à former les médecins au diagnostic et à la prise en charge thérapeutique des sportif·ves et permettre le suivi médical du·de la sportif·ve en compétition et lors des stages préparatoires.",
     "image": "https://www.fsa.uliege.be/upload/docs/image/jpeg/2026-09/2023-04-26_laboratoire-mouvement-humain-b52-uliegeg.meuli00006.jpg",
     "content": "",
@@ -839,7 +857,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_11679989/fr/mode-d-emploi-pour-un-bon-choix",
     "title": "Mode d'emploi pour un bon choix",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_11679989/fr/mode-d-emploi-pour-un-bon-choix",
+    "link": "https://www.news.uliege.be/cms/c_11679989/fr/mode-d-emploi-pour-un-bon-choix",
     "description": "Le certificat inter-universités en Médecine du Sport vise à former les médecins au diagnostic et à la prise en charge thérapeutique des sportif·ves et permettre le suivi médical du·de la sportif·ve en compétition et lors des stages préparatoires.",
     "image": "https://www.fsa.uliege.be/upload/docs/image/jpeg/2026-09/2023-04-26_laboratoire-mouvement-humain-b52-uliegeg.meuli00006.jpg",
     "content": "",
@@ -857,7 +875,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20731466/fr/chercheurs-et-etudiants-bloques-a-gaza-le-cref-et-le-vlir-denoncent-un-marchandage-politique-indigne",
     "title": "Chercheurs et étudiants bloqués à Gaza : le CRef et le VLIR dénoncent un marchandage politique indigne",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20731466/fr/chercheurs-et-etudiants-bloques-a-gaza-le-cref-et-le-vlir-denoncent-un-marchandage-politique-indigne",
+    "link": "https://www.news.uliege.be/cms/c_20731466/fr/chercheurs-et-etudiants-bloques-a-gaza-le-cref-et-le-vlir-denoncent-un-marchandage-politique-indigne",
     "description": "Les rectrices et recteurs des universités belges déplorent l’absence persistante de décision permettant l’accueil d’étudiants et chercheurs gazaouis pourtant sélectionnés pour des bourses d’études ou de recherche.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2025-07/communique_cref.png",
     "content": "",
@@ -884,7 +902,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20721876/fr/vos-premiers-pas-a-l-uliege",
     "title": "Vos premiers pas à l’ULiège !",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20721876/fr/vos-premiers-pas-a-l-uliege",
+    "link": "https://www.news.uliege.be/cms/c_20721876/fr/vos-premiers-pas-a-l-uliege",
     "description": "Les 9 et 10 septembre, l’ULiège a accueilli ses nouveaux et nouvelles étudiant·es lors de deux journées d’accueil, entre activités, rencontres, découverte du campus et accompagnement.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-09/news_rentree_2026.png",
     "content": "",
@@ -902,7 +920,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20724494/fr/the-founder-link-un-nouveau-pont-entre-recherche-et-entrepreneuriat",
     "title": "The Founder Link : un nouveau pont entre recherche et entrepreneuriat",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20724494/fr/the-founder-link-un-nouveau-pont-entre-recherche-et-entrepreneuriat",
+    "link": "https://www.news.uliege.be/cms/c_20724494/fr/the-founder-link-un-nouveau-pont-entre-recherche-et-entrepreneuriat",
     "description": "Ce 8/9, la 1ère édition de The Founder Link organisé par RISE, HEC et Pulse a permis à des porteurs d’un projet de spin-off, de rencontrer des profils entrepreneuriaux susceptibles de contribuer à la constitution d’une future équipe fondatrice.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-09/00005_-_the_founder_link_2026.jpeg",
     "content": "",
@@ -938,7 +956,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20720578/fr/deux-nouveaux-projets-interreg-meuse-rhin-avec-la-participation-de-l-uliege",
     "title": "Deux nouveaux projets Interreg Meuse-Rhin avec la participation de l’ULiège",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20720578/fr/deux-nouveaux-projets-interreg-meuse-rhin-avec-la-participation-de-l-uliege",
+    "link": "https://www.news.uliege.be/cms/c_20720578/fr/deux-nouveaux-projets-interreg-meuse-rhin-avec-la-participation-de-l-uliege",
     "description": "SCOPE , consacré au développement d’infrastructures informatiques plus durables, et ShuttleToBrain , qui explore de nouvelles approches pour améliorer l’acheminement de médicaments vers le cerveau. 2 nouveaux projets IMR à l'ULiège.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2025-07/interreg_meuse-rhin_shutterstock.jpg",
     "content": "",
@@ -974,7 +992,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20717259/fr/les-moocs-de-l-uliege-decouvrez-l-offre-de-la-rentree-2026",
     "title": "Les MOOCs de l’ULiège : découvrez l’offre de la rentrée 2026 !",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20717259/fr/les-moocs-de-l-uliege-decouvrez-l-offre-de-la-rentree-2026",
+    "link": "https://www.news.uliege.be/cms/c_20717259/fr/les-moocs-de-l-uliege-decouvrez-l-offre-de-la-rentree-2026",
     "description": "En cette rentrée 2026, les MOOCs de l’ULiège continuent de vous offrir des cours en ligne gratuits et accessibles à tous, pour élargir vos connaissances à votre rythme.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-09/1280x720_mooc1.jpg",
     "content": "",
@@ -992,7 +1010,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20717104/fr/l-uliege-a-la-pride-parade-solidaire-festive-et-coloree",
     "title": "L'ULiège à la Pride : parade solidaire, festive et colorée !",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20717104/fr/l-uliege-a-la-pride-parade-solidaire-festive-et-coloree",
+    "link": "https://www.news.uliege.be/cms/c_20717104/fr/l-uliege-a-la-pride-parade-solidaire-festive-et-coloree",
     "description": "L'Université de Liège était présente à la Pride ce 29 août : une parade hautes en couleurs pour réaffirmer l'engagement de l'institution en faveur des droits LGBTQIA+.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-08/pride-1280-720.png",
     "content": "",
@@ -1001,7 +1019,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20716473/fr/operation-hors-normes-transfert-de-la-cuve-focal-7-dans-la-nouvelle-salle-blanche-du-centre-spatial-de-liege",
     "title": "Opération hors normes : transfert de la cuve FOCAL 7 dans la nouvelle salle blanche du Centre Spatial de Liège",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20716473/fr/operation-hors-normes-transfert-de-la-cuve-focal-7-dans-la-nouvelle-salle-blanche-du-centre-spatial-de-liege",
+    "link": "https://www.news.uliege.be/cms/c_20716473/fr/operation-hors-normes-transfert-de-la-cuve-focal-7-dans-la-nouvelle-salle-blanche-du-centre-spatial-de-liege",
     "description": "Avec ses sept mètres de diamètre et près de quatorze mètres de long, FOCAL 7 sera la plus grande cuve à vide du CSL et même une des plus grandes d'Europe !",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-08/focal7_amos_csl.png",
     "content": "",
@@ -1019,7 +1037,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20702966/fr/reseau-de-bus-les-changements-annonces-pour-la-rentree-en-plus-de-l-arrivee-des-tribus",
     "title": "Réseau de bus : les changements annoncés pour la rentrée en plus de l’arrivée des tribus",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20702966/fr/reseau-de-bus-les-changements-annonces-pour-la-rentree-en-plus-de-l-arrivee-des-tribus",
+    "link": "https://www.news.uliege.be/cms/c_20702966/fr/reseau-de-bus-les-changements-annonces-pour-la-rentree-en-plus-de-l-arrivee-des-tribus",
     "description": "À partir du lundi 24 août, plusieurs lignes LETEC desservant le campus du Sart Tilman évoluent et visent à améliorer la régularité des bus et faciliter les correspondances.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-08/tribus_letec_j-ph.dheur.jpeg",
     "content": "",
@@ -1028,7 +1046,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20709323/fr/colloque-cooperation-academique-uliege/ub",
     "title": "Colloque - Coopération académique ULiège/UB",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20709323/fr/colloque-cooperation-academique-uliege/ub",
+    "link": "https://www.news.uliege.be/cms/c_20709323/fr/colloque-cooperation-academique-uliege/ub",
     "description": "Le 11 août 2026, un colloque international consacré à la fiscalité foncière et au financement du développement s’est tenu à Gitega, au Burundi, réunissant acteurs académiques, décideurs publics et partenaires du développement.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-08/colloque_burundi.jpg",
     "content": "",
@@ -1037,7 +1055,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20708472/fr/chantier-de-refection-des-boulevards-de-colonster-et-du-rectorat",
     "title": "Chantier de réfection des boulevards de Colonster et du Rectorat",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20708472/fr/chantier-de-refection-des-boulevards-de-colonster-et-du-rectorat",
+    "link": "https://www.news.uliege.be/cms/c_20708472/fr/chantier-de-refection-des-boulevards-de-colonster-et-du-rectorat",
     "description": "Le Service Public de Wallonie va procéder à la réfection du boulevard de Colonster, entre le carrefour de l’avenue du Bois Saint-Jean et le rond-point M. Florkin, du lundi 31 août jusqu’au vendredi 11 septembre.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-08/renovation_blds_2026.png",
     "content": "",
@@ -1046,7 +1064,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20709157/fr/perturbations-dans-les-transports-en-commun-ces-jeudi-27-et-vendredi-28-aout",
     "title": "Perturbations dans les transports en commun ces jeudi 27 et vendredi 28 août",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20709157/fr/perturbations-dans-les-transports-en-commun-ces-jeudi-27-et-vendredi-28-aout",
+    "link": "https://www.news.uliege.be/cms/c_20709157/fr/perturbations-dans-les-transports-en-commun-ces-jeudi-27-et-vendredi-28-aout",
     "description": "Des perturbations sont annoncées sur le réseau TEC ces jeudi 27 et vendredi 28 août .",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2025-09/busway2-sept2025.png",
     "content": "",
@@ -1064,7 +1082,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20704251/fr/tetras-lyres-une-population-en-sursis-suite-a-l-incendie-des-hautes-fagnes",
     "title": "Tétras lyres : une population en sursis suite à l’incendie des Hautes Fagnes",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20704251/fr/tetras-lyres-une-population-en-sursis-suite-a-l-incendie-des-hautes-fagnes",
+    "link": "https://www.news.uliege.be/cms/c_20704251/fr/tetras-lyres-une-population-en-sursis-suite-a-l-incendie-des-hautes-fagnes",
     "description": "L’incendie, qui a déjà ravagé près de 3 000 hectares dans les Hautes Fagnes, met en péril de nombreuses espèces et rappelle la grande fragilité des tétras lyres.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-08/news-tetras-lyres-incendie-canva-uliege.png",
     "content": "",
@@ -1091,7 +1109,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20702768/fr/laure-fagnart-et-stefania-tullio-cataldo-parmi-les-nouvelles-personnalites-qui-ont-recu-le-titre-de-citoyen-citoyenne-d-honneur-de-la-ville-de-liege",
     "title": "Laure Fagnart et Stefania Tullio Cataldo parmi les nouvelles personnalités qui ont reçu le titre de « Citoyen – Citoyenne d’honneur » de la Ville de Liège",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20702768/fr/laure-fagnart-et-stefania-tullio-cataldo-parmi-les-nouvelles-personnalites-qui-ont-recu-le-titre-de-citoyen-citoyenne-d-honneur-de-la-ville-de-liege",
+    "link": "https://www.news.uliege.be/cms/c_20702768/fr/laure-fagnart-et-stefania-tullio-cataldo-parmi-les-nouvelles-personnalites-qui-ont-recu-le-titre-de-citoyen-citoyenne-d-honneur-de-la-ville-de-liege",
     "description": "Laure Fagnart et Stefania Tullio Cataldo de l'ULiège reçoivent le titre de « Citoyenne d’honneur » de la Ville de Liège.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/png/2026-08/prix_citoyens_ville_liege_aout_2026_nathan_doppagne.png",
     "content": "",
@@ -1109,7 +1127,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20686951/fr/first-year-seminars-un-levier-cle-pour-reussir-sa-premiere-annee",
     "title": "First-Year Seminars : un levier clé pour réussir sa première année",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20686951/fr/first-year-seminars-un-levier-cle-pour-reussir-sa-premiere-annee",
+    "link": "https://www.news.uliege.be/cms/c_20686951/fr/first-year-seminars-un-levier-cle-pour-reussir-sa-premiere-annee",
     "description": "",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-07/2560x1440_news_fys_gmeuli.jpg",
     "content": "",
@@ -1118,7 +1136,7 @@
   {
     "id": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20702087/fr/hommage-a-arthur-bodson-ancien-recteur-de-l-universite-de-liege-1985-1997",
     "title": "Hommage à Arthur Bodson, ancien Recteur de l'Université de Liège (1985 -1997)",
-    "link": "https://www.news.uliege.be/cms/c_9435330/fr/cms/c_20702087/fr/hommage-a-arthur-bodson-ancien-recteur-de-l-universite-de-liege-1985-1997",
+    "link": "https://www.news.uliege.be/cms/c_20702087/fr/hommage-a-arthur-bodson-ancien-recteur-de-l-universite-de-liege-1985-1997",
     "description": "C’est avec une profonde tristesse que l’Université de Liège apprend le décès d’Arthur Bodson, Recteur de l’Université de 1985 à 1997. Ce texte biographique retrace son parcours.",
     "image": "https://www.news.uliege.be/cms/c_9435330/fr/upload/docs/image/jpeg/2026-08/bodson_arthur_news.jpg",
     "content": "",
