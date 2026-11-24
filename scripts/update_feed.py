@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """Collecte les actualités ULiège et génère un flux RSS 2.0."""
 
@@ -13,7 +12,7 @@ import time
 from pathlib import Path
 from datetime import datetime, timezone
 from email.utils import format_datetime
-from urllib.parse import urlencode, urljoin
+from urllib.parse import urlencode, urljoin, urlsplit, urlunsplit
 
 import xml.etree.ElementTree as ET
 
@@ -22,7 +21,8 @@ from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 
-BASE = "https://www.news.uliege.be/cms/c_9435330/fr/prog-cours"
+SITE_ROOT = "https://www.news.uliege.be/"
+BASE = urljoin(SITE_ROOT, "cms/c_9435330/fr/prog-cours")
 ROOT = Path(__file__).resolve().parents[1]
 STATE = ROOT / "state/articles.json"
 FEED = ROOT / "docs/feed.xml"
@@ -120,13 +120,39 @@ def listing(start):
 
 
 def absurl(url, base=None):
+    """Convertit une URL en URL absolue sans préfixer deux fois le chemin CMS."""
     if not url:
         return ""
 
-    return urljoin(
-        base or "https://www.news.uliege.be/",
-        url.strip()
+    url = url.strip()
+    if not url:
+        return ""
+
+    # Le site fournit parfois des chemins relatifs de la forme cms/c_XXXX/fr/... .
+    # Ils sont relatifs à la racine du domaine, pas à la rubrique BASE.
+    if re.match(r"^(?:\./)*cms/", url):
+        url = "/" + re.sub(r"^(?:\./)*", "", url)
+
+    return urljoin(base or SITE_ROOT, url)
+
+
+def repair_old_url(url):
+    """Répare les anciens liens contenant le préfixe de rubrique en double."""
+    if not url:
+        return url
+
+    parts = urlsplit(url)
+    fixed_path = re.sub(
+        r"/cms/c_\d+/fr(?=/cms/)",
+        "",
+        parts.path,
+        count=1
     )
+
+    if fixed_path != parts.path:
+        print(f"[URL CORRIGÉE] {url} -> {fixed_path}")
+
+    return urlunsplit((parts.scheme, parts.netloc, fixed_path, parts.query, parts.fragment))
 
 
 def extract_image(card, link):
@@ -393,6 +419,14 @@ def main():
 
     except (OSError, json.JSONDecodeError):
         old = []
+
+    # Répare les liens déjà stockés sans toucher aux GUID historiques.
+    # Ainsi Inoreader continue à reconnaître les articles déjà connus.
+    for old_item in old:
+        if old_item.get("link"):
+            old_item["link"] = repair_old_url(old_item["link"])
+        if old_item.get("image"):
+            old_item["image"] = repair_old_url(old_item["image"])
 
     known = {
         x["id"]: x
