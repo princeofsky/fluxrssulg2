@@ -2,20 +2,23 @@
 #!/usr/bin/env python3
 """Collecte les actualités ULiège et génère un flux RSS 2.0."""
 
+import atexit
+import hashlib
 import json
 import os
 import re
 import sys
 import time
+
 from pathlib import Path
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from urllib.parse import urlencode, urljoin
+
 import xml.etree.ElementTree as ET
 
 import requests
 from bs4 import BeautifulSoup
-import atexit
 from playwright.sync_api import sync_playwright
 
 
@@ -73,6 +76,7 @@ def get(url):
             timeout=60000
         )
 
+        # Attente conservée volontairement.
         page.wait_for_timeout(4000)
 
         print(
@@ -92,6 +96,15 @@ def get(url):
 
 def clean(s):
     return re.sub(r"\s+", " ", s or "").strip()
+
+
+def stable_id(title, link):
+    """Construit un identifiant stable à partir du titre et du lien."""
+
+    key = f"{clean(title).casefold()}|{link.strip()}"
+    digest = hashlib.sha256(key.encode("utf-8")).hexdigest()
+
+    return f"uliege-{digest}"
 
 
 def listing(start):
@@ -162,7 +175,7 @@ def extract_image(card, link):
         style = node.get("style", "")
 
         match = re.search(
-            r"background(?:-image)?\s*:\s*url\(['\"]?([^'\")]+)",
+            r"""background(?:-image)?\s*:\s*url\(['"]?([^'")]+)""",
             style
         )
 
@@ -176,20 +189,27 @@ def extract_image(card, link):
 
 
 def parse_listing(soup):
-    out, seen = [], set()
+    out = []
+    seen = set()
 
     for a in soup.select("h3 a[href]"):
 
         title = clean(a.get_text(" ", strip=True))
         link = absurl(a.get("href"), BASE)
 
-        if not title or not link or link in seen:
+        if not title or not link:
             continue
 
-        seen.add(link)
+        # On identifie une actualité par son titre ET son lien.
+        article_id = stable_id(title, link)
 
-        # Remonte dans le HTML pour trouver la carte contenant
-        # le titre et l'image.
+        if article_id in seen:
+            continue
+
+        seen.add(article_id)
+
+        # Remonte dans le HTML pour trouver la carte
+        # contenant le titre et l'image.
         card = a
         image = ""
 
@@ -225,7 +245,7 @@ def parse_listing(soup):
                     break
 
         out.append({
-            "id": link,
+            "id": article_id,
             "title": title,
             "link": link,
             "description": desc,
@@ -341,6 +361,26 @@ def enrich(item):
     return item
 
 
+def find_existing(item, known):
+    """Retrouve un article déjà enregistré."""
+
+    # Recherche prioritaire par identifiant.
+    if item["id"] in known:
+        return item["id"]
+
+    # Compatibilité avec les anciens identifiants,
+    # qui étaient simplement les URL des articles.
+    for old_id, old_item in known.items():
+
+        if (
+            clean(old_item.get("title")) == clean(item["title"])
+            and old_item.get("link") == item["link"]
+        ):
+            return old_id
+
+    return None
+
+
 def main():
 
     STATE.parent.mkdir(parents=True, exist_ok=True)
@@ -431,8 +471,13 @@ def main():
     # Mise à jour des articles existants et ajout des nouveaux.
     for item in fresh:
 
-        if item["id"] in known:
+        existing_id = find_existing(item, known)
 
+        if existing_id is not None:
+
+            existing = known[existing_id]
+
+            # Mise à jour des informations disponibles.
             for k in (
                 "title",
                 "link",
@@ -441,10 +486,24 @@ def main():
             ):
 
                 if item.get(k):
-                    known[item["id"]][k] = item[k]
+                    existing[k] = item[k]
+
+            # On conserve impérativement l'ancien GUID
+            # et la date de publication déjà enregistrée.
 
         else:
+
+            # Date de première détection.
+            item["published"] = datetime.now(
+                timezone.utc
+            ).isoformat()
+
             known[item["id"]] = item
+
+            print(
+                f"[NOUVEAU] {item['title']}"
+            )
+
             time.sleep(.25)
 
     # Tri et sauvegarde des articles.
@@ -482,7 +541,7 @@ def main():
     ch = ET.SubElement(rss, "channel")
 
     def add(parent, tag, val):
-        ET.SubElement(parent, tag).text = val
+        ET.SubElement(parent, tag).text = str(val or "")
 
     add(
         ch,
@@ -513,10 +572,19 @@ def main():
         add(it, "title", x.get("title", ""))
         add(it, "link", x.get("link", ""))
 
-        add(
+        # GUID unique et stable.
+        guid = ET.SubElement(
             it,
             "guid",
-            x.get("id") or x.get("link", "")
+            {"isPermaLink": "false"}
+        )
+
+        guid.text = (
+            x.get("id")
+            or stable_id(
+                x.get("title", ""),
+                x.get("link", "")
+            )
         )
 
         add(
@@ -525,6 +593,7 @@ def main():
             x.get("description", "")
         )
 
+        # Date de publication ou de première détection.
         if x.get("published"):
 
             try:
@@ -532,16 +601,16 @@ def main():
                     x["published"].replace("Z", "+00:00")
                 )
 
+                if not d.tzinfo:
+                    d = d.replace(tzinfo=timezone.utc)
+
                 add(
                     it,
                     "pubDate",
-                    format_datetime(
-                        d if d.tzinfo
-                        else d.replace(tzinfo=timezone.utc)
-                    )
+                    format_datetime(d)
                 )
 
-            except ValueError:
+            except (ValueError, TypeError):
                 pass
 
         if x.get("content"):
